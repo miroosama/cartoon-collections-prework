@@ -1,8 +1,7 @@
-def roll_call_dwarves(array)# code an argument here
+def roll_call_dwarves(arr)# code an argument here
   # Your code here
-
-  array.each do |i|
-    puts "#{array(i)+1}. #{i}"
+  arr.each do |x|
+    puts x
   end
 end
 
