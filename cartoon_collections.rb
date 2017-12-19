@@ -2,7 +2,7 @@ def roll_call_dwarves(arr)# code an argument here
   # Your code here
 
   arr.each do |i|
-    puts "#{arr(i)+1}. i"
+    puts "#{arr(i)+1}. #{i}"
   end
 end
 
