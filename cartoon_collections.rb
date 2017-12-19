@@ -7,9 +7,10 @@ end
 
 def summon_captain_planet(arr)# code an argument here
   # Your code here
-  arr.collect do |x|
-  "#{(x[0].upcase + (x.length +1))}!"
-end
+  veggies.collect do |call|
+    call.capitalize + "!"
+  end
+
 end
 
 def long_planeteer_calls# code an argument here
