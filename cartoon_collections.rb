@@ -8,7 +8,7 @@ end
 def summon_captain_planet(arr)# code an argument here
   # Your code here
   arr.collect do |x|
-  x[0].upcase + x.length(1) + "!"
+  "#{(x[0].upcase + x.length(1))}!"
 end
 end
 
