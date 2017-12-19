@@ -1,7 +1,8 @@
 def roll_call_dwarves(arr)# code an argument here
   # Your code here
+  counter = 0
   arr.each do |x|
-    puts arr.index_of(x) + i
+    puts counter +=1 + "." + i
   end
 end
 
